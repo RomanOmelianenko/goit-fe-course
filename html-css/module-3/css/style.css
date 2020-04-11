@@ -13,53 +13,51 @@ img {
     height: auto;
 }
 
-/* For all menu */
+/* For all content */
 .conteiner {
     width: 902px;
     margin: 0 auto;
 }
 /* HEADER */
 .page-nav {
-    background: yellow;
+    background: none;
     text-align: center;
-    margin-bottom: 102px;
+    margin-bottom: 104px;
 }
 
 /* For all ul>li */
 .site-navigation li {
     display: inline-block;
 }
-/* Убрали зазор меджду margin и фото
-font-size: 0; */
 .site-navigation {
     margin: 0;
     padding: 0;
     display: inline-block;
-    font-size: 0;
+}
+#navigation {
+    margin-top: 76px;
 } 
-/* Если убрать font-size 0, 
-сместится одно из фото!!! */
-
 .life {
-    margin-right: 61px;
+    margin-right: 62px;
 }
 .photo {
-    margin-left: 61px;
+    margin-left: 62px;
     margin-right: 51px;
 }
 .music {
-    margin-left: 51px;
-    margin-right: 47px;
+    margin-left: 52px;
+    margin-right: 48px;
 }
 .travel {
-    margin-left: 47px;
+    margin-left: 48px;
     margin-right: 0;
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
-    color: red;
+    color: green;
 }
 /* End of HEADER */
+
 
 /* BODY */
 .photo-list-item {
@@ -69,39 +67,77 @@ font-size: 0; */
 }
 #coffee, #exploring, #winter {
     margin-right: 0;
+    margin-left: -2px;
 }
 
-img, figcaption {
-    margin-bottom: 32px;
+/* Отступы вниз */
+ul {
+    margin-bottom: 102px;
+}
+img {
+    margin-bottom: 30px;
+}
+
+
+figcaption {
+    margin-bottom: 26px;
 }
 h1, h2 {
-    margin-bottom: 42px;
+    margin-bottom: 32px;
+    margin-top: 0;
 }
 p {
-    margin-bottom: 136px;
+    margin-bottom: 132px;
+    margin-top: 0;
+}
+button {
+    margin-bottom: 72px;
+    margin-left: 358px;
+    margin-right: 380px;
 }
 
 
 /* Font-size for each elements */
 
 a {
+    text-decoration: none;
     font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Playfair display',serif;
+    color: #626262;
 }
+
 figcaption {
     font-size: 14px;
-    font-style: 'Myriad Pro', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #c8c3b9;
 }
 h1, h2 {
     font-size: 30px;
-    font-style: 'Playfair display', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Playfair display', serif;
+    color: #626262;
 }
 p {
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Playfair display', serif;
+    color: #626262;
+    text-align: justify;
+    line-height: 1.5em;
 }
 button {
-    margin-bottom: 72px;
-    display: inline-block;
-    margin-left: 360px;
-    width: 164px;
+    width: 162px;
     height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Playfair display', serif;
+    color: #626262;
 }
+
