@@ -79,7 +79,7 @@ img {
 }
 
 
-figcaption {
+.paragraph {
     margin-bottom: 26px;
 }
 h1, h2 {
@@ -108,7 +108,7 @@ a {
     color: #626262;
 }
 
-figcaption {
+.paragraph {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
