@@ -1,0 +1,107 @@
+/* General Rule*/
+html {
+    box-sizing: border-box;
+}
+*,*::befor, ::after {
+    box-sizing: inherit;
+}
+
+/* RULE Fol all images (убрать зазор) */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* For all menu */
+.conteiner {
+    width: 902px;
+    margin: 0 auto;
+}
+/* HEADER */
+.page-nav {
+    background: yellow;
+    text-align: center;
+    margin-bottom: 102px;
+}
+
+/* For all ul>li */
+.site-navigation li {
+    display: inline-block;
+}
+/* Убрали зазор меджду margin и фото
+font-size: 0; */
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 0;
+} 
+/* Если убрать font-size 0, 
+сместится одно из фото!!! */
+
+.life {
+    margin-right: 61px;
+}
+.photo {
+    margin-left: 61px;
+    margin-right: 51px;
+}
+.music {
+    margin-left: 51px;
+    margin-right: 47px;
+}
+.travel {
+    margin-left: 47px;
+    margin-right: 0;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: red;
+}
+/* End of HEADER */
+
+/* BODY */
+.photo-list-item {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+}
+#coffee, #exploring, #winter {
+    margin-right: 0;
+}
+
+img, figcaption {
+    margin-bottom: 32px;
+}
+h1, h2 {
+    margin-bottom: 42px;
+}
+p {
+    margin-bottom: 136px;
+}
+
+
+/* Font-size for each elements */
+
+a {
+    font-size: 14px;
+}
+figcaption {
+    font-size: 14px;
+    font-style: 'Myriad Pro', serif;
+}
+h1, h2 {
+    font-size: 30px;
+    font-style: 'Playfair display', serif;
+}
+p {
+    font-size: 13px;
+}
+button {
+    margin-bottom: 72px;
+    display: inline-block;
+    margin-left: 360px;
+    width: 164px;
+    height: 60px;
+}
