@@ -79,6 +79,8 @@ button {
     margin-bottom: 70px;
     margin-left: 360px;
     margin-right: 380px;
+    border: 1px solid;
+    text-align: center;
 }
 /* Font-size for each elements */
 button {
