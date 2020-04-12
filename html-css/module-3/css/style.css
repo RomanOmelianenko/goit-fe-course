@@ -1,42 +1,35 @@
-/* General Rule*/
 html {
     box-sizing: border-box;
 }
 *,*::befor, ::after {
     box-sizing: inherit;
 }
-
-/* RULE Fol all images (убрать зазор) */
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-/* For all content */
-.conteiner {
-    width: 902px;
-    margin: 0 auto;
+.wrapper {
+    width: 900px;
+    height: 1932px;
+    margin: 76px auto 70px;
 }
-/* HEADER */
-.page-nav {
-    background: none;
-    text-align: center;
-    margin-bottom: 104px;
-}
-
-/* For all ul>li */
-.site-navigation li {
-    display: inline-block;
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: red;
 }
 .site-navigation {
     margin: 0;
     padding: 0;
+}
+.site-navigation li {
     display: inline-block;
 }
-#navigation {
-    margin-top: 76px;
-} 
+.page-nav {
+    background: none;
+    text-align: center;
+    margin-bottom: 102px;
+}
 .life {
     margin-right: 62px;
 }
@@ -52,14 +45,6 @@ img {
     margin-left: 48px;
     margin-right: 0;
 }
-.site-navigation a:hover,
-.site-navigation a:focus {
-    color: green;
-}
-/* End of HEADER */
-
-
-/* BODY */
 .photo-list-item {
     display: inline-block;
     width: 420px;
@@ -67,18 +52,11 @@ img {
 }
 #coffee, #exploring, #winter {
     margin-right: 0;
-    margin-left: -2px;
-}
-
-/* Отступы вниз */
-ul {
-    margin-bottom: 102px;
+    margin-left: -4px;
 }
 img {
     margin-bottom: 30px;
 }
-
-
 .paragraph {
     margin-bottom: 26px;
 }
@@ -90,15 +68,29 @@ p {
     margin-bottom: 132px;
     margin-top: 0;
 }
-button {
-    margin-bottom: 72px;
-    margin-left: 358px;
-    margin-right: 380px;
+.last {
+    margin-bottom: 0;
+}
+.last {
+    margin-bottom: 54px;
 }
 
-
+button {
+    margin-bottom: 70px;
+    margin-left: 360px;
+    margin-right: 380px;
+}
 /* Font-size for each elements */
-
+button {
+    background-color: #ffffff;
+    width: 162px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Playfair display', serif;
+    color: #626262;
+}
 a {
     text-decoration: none;
     font-size: 14px;
@@ -107,7 +99,9 @@ a {
     font-family: 'Playfair display',serif;
     color: #626262;
 }
-
+.lifestyle {
+    color: #03a9f4;
+}
 .paragraph {
     font-size: 14px;
     font-weight: 400;
@@ -131,13 +125,3 @@ p {
     text-align: justify;
     line-height: 1.5em;
 }
-button {
-    width: 162px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Playfair display', serif;
-    color: #626262;
-}
-
