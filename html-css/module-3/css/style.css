@@ -87,7 +87,7 @@ h1, h2 {
 /* Кнопка */
 .button {
     display: inline-block;
-    padding-bottom: 70px;
+    margin-bottom: 70px;
     margin-left: 360px;
     margin-right: 380px;
 }
