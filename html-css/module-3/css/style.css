@@ -23,6 +23,9 @@ img {
     color: green;
 }
 /* Навигация HEADER */
+.page-header {
+    margin-bottom: 104px;
+}
 .site-navigation {
     margin: 0;
     padding: 0;
@@ -31,9 +34,7 @@ img {
 .site-navigation li {
 display: inline-block;
 }
-.page-header {
-    margin-bottom: 104px;
-}
+
 .life {
     margin-right: 62px;
 }
@@ -49,22 +50,28 @@ display: inline-block;
     margin-left: 48px;
     margin-right: 0;
 }
+
 /* Главное меню */
 .page-main {
     margin-bottom: 54px;
+    padding: 0;
 }
 .site-main {
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
 .photo-list-item {
     display: inline-block;
-    width: 418px;
-    margin-right: 60px;
+    width: 420px;
+    margin-right: 56px;
     margin-bottom: 138px;
 }
 .photo-list-item:nth-child(2n) {
     margin-right: 0;
+}
+.last {
+    margin-bottom: 0;
 }
 h1, h2, p {
     margin: 0;
@@ -77,11 +84,6 @@ img {
 }
 h1, h2 {
     padding-bottom: 32px;
-}
-.last {
-    margin-right: 60px;
-    margin-bottom: 0;
-    padding: 0;
 }
 
 /* Кнопка */
