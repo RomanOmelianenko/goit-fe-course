@@ -1,0 +1,276 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 38px 30px 64px 30px;
+}
+
+
+/* Header Nav */
+.main-navigation {
+    width: 1110px;
+    padding: 0;
+    margin-bottom: 104px;
+    /* background-color: yellow; */
+}
+.logo {
+    display: inline-block;
+    /* vertical-align: middle; */
+} 
+.site-navigation {
+    /* display: inline-block;
+    vertical-align: middle;
+    width: 1030px;  -  Убрали для Float*/
+    /* text-align: right; */
+    margin: 0;
+    padding: 0;
+    width: 464px;
+    float: right;
+    margin-top: 10px;
+}
+
+.site-navigation li {
+    float: left;
+}
+
+/* Отступы для li */
+.home {
+    padding-right: 17px;
+}
+.about {
+    padding-left: 17px;
+    padding-right: 18px;
+}
+.page {
+    padding-left: 18px;
+    padding-right: 15px;
+}
+.shop {
+    padding-left: 18px;
+    padding-right: 13px;
+}
+.blog {
+    padding-left: 13px;
+    padding-right: 17px;
+}
+.contact {
+    padding-left: 17px;
+}
+
+/* Главное меню */
+/* Section 1 Section 1 */
+.page-main-1 {
+    margin-bottom: 106px;
+    padding: 0;
+}
+.site-main-1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Photo-list-item */
+.photo-list-item-1 {
+    width: 254px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+/* Float Section-1 Float  */
+.photo-list-item-1 {
+    float: left;
+}
+.div h2:first-child {
+    float: left;
+    margin-right: 0;
+}   
+
+.div p:last-child {
+    float: right;
+}
+.photo-list-item-1:nth-child(4n) {
+    margin-right: 0;
+}
+.last {
+    margin-bottom: 0;
+}
+
+/* H1 */
+.page-main-1 h1 {
+    margin: 0;
+    margin-bottom: 130px;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+/* Section 2 Section 2 */
+.page-main-2 {
+    margin: 0;
+    padding: 0;
+}
+.site-main-2 {
+    margin: 0;
+    padding: 0; 
+}
+
+/* Photo-list-item-2 */
+.photo-list-item-2 {
+    width: 350px;
+    margin-right: 30px;
+    /* Float */
+    float: left;
+}
+.photo-list-item-2:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* Отступы */
+.page-main-2 h3 {
+    padding-bottom: 84px;
+}
+.photo {
+    padding-bottom: 12px;
+}
+.title-2 {
+    padding-bottom: 42px;
+}
+.paragraph {
+    padding-bottom: 16px;
+}
+
+/* Оформление текста */
+/* Оформление Header */
+.logo {
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+}
+/* First letter */
+.logo::first-letter {
+    font-size: 29px;
+    font-family: sans-serif;
+    color: #1abc9c;
+}
+a {
+    text-decoration: none;
+    color: #555252;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.link {
+    color: #1abc9c;
+}
+
+/*Оформление Section 1 */
+.name {
+    width: 200px;
+    height: 40px;
+    background-color: #323232;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+    padding-top: 8px;
+    padding-left: 14px;
+}
+.price {
+    width: 54px;
+    height: 40px;
+    background-color: #8c8c8c;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+    text-align: center;
+    padding-top: 8px;
+    margin-right: 0;
+}
+
+/* Оформление Section 2 */
+.title-1 {
+    text-align: center;
+    font-size: 48px;
+    color: #555252;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+}
+.title-2 {
+    font-size: 18px;
+    color: #555252;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+    line-height: 1.5em;
+}
+.paragraph {
+    font-size: 14px;
+    color: #555252;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8em;
+}
+
+/* Button */
+.but {
+    padding: 0;
+    width: 160px;
+    height: 52px;
+    color: #fff;
+    border: 1px #fff;
+    border-radius: 3px;
+    background-color: #4ec6ab;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+/* Underline */
+.underline:after {
+    content: "";
+    display: block;
+    text-align: center;
+    height: 6px;
+    width: 164px;
+    margin: 8px auto;
+    background-color: #1abc9c;
+}
+
+.img:hover {
+    background-color: green;
+}
+
+.name:hover {
+    background-color: #1abc9c;
+}
+.price:hover {
+    background-color: #7fd9c7;
+}
+
+ 
+
