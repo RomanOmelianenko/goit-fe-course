@@ -47,6 +47,7 @@ img {
 }
 
 .site-navigation li {
+    display: block;
     float: left;
 }
 
@@ -83,6 +84,9 @@ img {
 .site-main-1 {
     margin: 0;
     padding: 0;
+}
+.site-main-1 li {
+    display: block;
 }
 
 /* Photo-list-item */
@@ -129,6 +133,9 @@ h1, h2, h3, h4, p {
 .site-main-2 {
     margin: 0;
     padding: 0; 
+}
+.site-main-2 li {
+    display: block;
 }
 
 /* Photo-list-item-2 */
