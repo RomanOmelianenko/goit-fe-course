@@ -10,9 +10,13 @@ img {
     height: auto;
 }
 
+/* Очистка потоков после */
 .clearfix::after {
+/* display: table; - для старых браузеров
+(не поддерживают display: block; */
     display: table;
     content: "";
+/* clear: both; - очистка лев и прав потока */
     clear: both;
 }
 
@@ -40,10 +44,10 @@ img {
     width: 1030px;  -  Убрали для Float*/
     /* text-align: right; */
     margin: 0;
-    padding: 0;
+    padding-left: 30px;
+    padding-top: 10px;
     width: 464px;
     float: right;
-    margin-top: 10px;
 }
 
 .site-navigation li {
@@ -103,7 +107,7 @@ img {
 }
 .div h2:first-child {
     float: left;
-    margin-right: 0;
+    /* margin-right: 0; */
 }   
 
 .div p:last-child {
@@ -267,17 +271,19 @@ a {
     margin: 8px auto;
     background-color: #1abc9c;
 }
-
-.img:hover {
-    background-color: green;
-}
-
-.name:hover {
+/* !!! Hover !!! */
+.photo-list-item-1:hover h2 {
     background-color: #1abc9c;
 }
-.price:hover {
+.photo-list-item-1:hover p {
     background-color: #7fd9c7;
 }
 
- 
+/* !!! Hover with linear-gradient !!! */
+/* .photo-list-item-1:hover h2 {
+    background-image: linear-gradient( #1abc9c, #1abc9c);
+}
+.photo-list-item-1:hover p {
+    background-image: linear-gradient(#7fd9c7, #7fd9c7);
+} */
 
