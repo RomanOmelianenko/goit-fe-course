@@ -19,23 +19,21 @@ img {
 /* clear: both; - очистка лев и прав потока */
     clear: both;
 }
-
 .wrapper {
     max-width: 1170px;
     margin: 0 auto;
     padding: 38px 30px 64px 30px;
 }
 
-
 /* Header Nav */
 .main-navigation {
-    width: 1110px;
     padding: 0;
     margin-bottom: 104px;
     /* background-color: yellow; */
 }
 .logo {
-    display: inline-block;
+    margin: 0;
+    float: left;
     /* vertical-align: middle; */
 } 
 .site-navigation {
@@ -46,7 +44,6 @@ img {
     margin: 0;
     padding-left: 30px;
     padding-top: 10px;
-    width: 464px;
     float: right;
 }
 
@@ -105,11 +102,10 @@ img {
 .photo-list-item-1 {
     float: left;
 }
-.div h2:first-child {
+.div p:first-child {
     float: left;
     /* margin-right: 0; */
 }   
-
 .div p:last-child {
     float: right;
 }
@@ -121,7 +117,7 @@ img {
 }
 
 /* H1 */
-.page-main-1 h1 {
+.page-main-1 h2 {
     margin: 0;
     margin-bottom: 130px;
 }
@@ -154,7 +150,7 @@ h1, h2, h3, h4, p {
 }
 
 /* Отступы */
-.page-main-2 h3 {
+.page-main-2 h2 {
     padding-bottom: 84px;
 }
 .photo {
@@ -171,25 +167,29 @@ h1, h2, h3, h4, p {
 /* Оформление Header */
 .logo {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-family: 'Myriad Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /* First letter */
 .logo::first-letter {
-    font-size: 29px;
-    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     color: #1abc9c;
 }
 a {
     text-decoration: none;
     color: #555252;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
-    font-family: 'Myriad Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .link {
+    font-size: 14px;
+    font-weight: 700;
     color: #1abc9c;
 }
 
@@ -282,10 +282,10 @@ a {
     background-color: #1abc9c;
 }
 /* !!! Hover !!! */
-.photo-list-item-1:hover h2 {
+.photo-list-item-1:hover .name {
     background-color: #1abc9c;
 }
-.photo-list-item-1:hover p {
+.photo-list-item-1:hover .price {
     background-color: #7fd9c7;
 }
 
