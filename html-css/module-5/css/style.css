@@ -6,7 +6,7 @@ html {
 }
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 /* -------------------------------- */
@@ -27,7 +27,8 @@ img {
 .site-navigation {
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
     width: 1026px;
     text-align: right;
     vertical-align: middle;
