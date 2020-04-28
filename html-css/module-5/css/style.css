@@ -116,16 +116,24 @@ main {
     width: 1600px;
 }
 /* -------------------------------- */
-.background {
+/* .background {
     display: none;
     position: absolute;
     height: 600px;
     width: 1600px;
-    background-color: rgb(0, 0, 2);
-    opacity: 0.522;  
-}
-.section-1:hover .background {
+    background-color: rgb(0, 0, 2, 0.522);
+} */
+
+#overlay {
+    position: absolute;
     display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    /* z-index: 2; */
+    cursor: pointer;
 }
 
 .photo-1 {
@@ -145,7 +153,7 @@ main {
     z-index: 2;
 }
 .paragraph-1 {
-    color: #fff; 
+    color: rgb(255, 255, 255); 
     font-size: 24px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
@@ -164,7 +172,7 @@ main {
     border: none;
     height: 104px;
     width: 104px;
-    background-color: #1abc9c;
+    background-color: rgb(26, 188, 156, 0.651);
     position: absolute;
     top: 225px;
     left: 245px;
@@ -175,7 +183,7 @@ main {
     border: none;
     height: 104px;
     width: 104px;
-    background-color: rgb(26, 188, 156);
+    background-color: rgb(26, 188, 156,0.651);
     position: absolute;
     top: 230px;
     right: 245px;
@@ -196,12 +204,10 @@ main {
 /* ----- HOVER for Slider ----- */
 
 .slider-1:hover {
-    background-color: #1abc9c;
-    opacity: 0.651;
+    background-color: rgb(26, 188, 156);
 }
 .slider-2:hover {
-    background-color: #1abc9c;
-    opacity: 0.651;
+    background-color: rgb(26, 188, 156);
 }
 /* --------------------------------- */
 
@@ -305,8 +311,8 @@ p {
     border-width: 10px;
     border-color: #fff;
     border-style: solid;
-    background-color: #000;
-    opacity: 0.549;
+    background-color: rgb(0, 0, 2, 0.549);
+    /* opacity: 0.549; */
     position: absolute;
     top: 0;
 }
@@ -319,7 +325,8 @@ p {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
+    /* opacity: 0.549; */
     top: 79px;
     left: 35px;
     position: absolute;
@@ -354,7 +361,7 @@ p {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
     top: 79px;
     left: 151px;
     position: absolute;
@@ -376,15 +383,15 @@ p {
     top: 136px;
     left: 35px;
     position: absolute;
-    z-index: 10;
 }
 .button-4::before {
+    padding-right: 10px;
     content: "\e66e";
     font-size: 30px;
     font-family: 'Pe-icon-7-stroke';
-    color: #fff;
-    border: 1px #fff;
-    z-index: 11;
+    color: rgb(255, 255, 255);
+    border: 1px rgb(255, 255, 255);
+    padding-top: 15px;
 }
 /* -------------------------------- */
 
