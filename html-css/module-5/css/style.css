@@ -101,7 +101,7 @@ a {
 
 main {
     background-color: #e9f0fd;
-    padding-bottom: 100px;
+    
 }
 
 /* !!!------ SECTION 1 ------!!! */
@@ -132,7 +132,6 @@ main {
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
-    /* z-index: 2; */
     cursor: pointer;
 }
 
@@ -176,6 +175,7 @@ main {
     position: absolute;
     top: 225px;
     left: 245px;
+    cursor: pointer;
 }
 .slider-2 {
     margin: 0;
@@ -187,6 +187,7 @@ main {
     position: absolute;
     top: 230px;
     right: 245px;
+    cursor: pointer;
 }
 .slider-1:before {
     content: "\e686";
@@ -214,8 +215,7 @@ main {
 /* !!!------ SECTION 2 ------!!! */
 
 .page-main-2 {
-    padding-left: 244px;
-    padding-right: 244px;
+    margin: 0 auto;
 }
 .title-2 {
     text-align: center;
@@ -223,10 +223,11 @@ main {
     margin-top: 0;
 }
 .list-section-2 {
+    padding-bottom: 100px;
     float: left;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
+    margin: 0 auto;
+    padding-left: 244px;
+    padding-right: 244px;
 }
 .list-section-2 li {
     display: block;
@@ -246,7 +247,6 @@ p {
     margin: 0;
 }
 .name-price {
-    font-size: 0;
     float: left;
 }
 
@@ -312,24 +312,20 @@ p {
     border-color: #fff;
     border-style: solid;
     background-color: rgb(0, 0, 2, 0.549);
-    /* opacity: 0.549; */
     position: absolute;
     top: 0;
+    cursor: pointer;
 }
-/* .button-4 {
-    padding-bottom: 10px;
-    padding-left: 10px;
-} */
 /* ---------------------------- */
 .button-1 {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
     background-color: rgb(0, 0, 0, 0);
-    /* opacity: 0.549; */
     top: 79px;
     left: 35px;
     position: absolute;
+    cursor: pointer;
 }
 .button-1::before {
     content: "\e642";
@@ -338,7 +334,6 @@ p {
     color: #fff;
     border: 1px #fff;
 }
-
 /* ------------------------------- */
 .button-2 {
     height: 50px;
@@ -348,6 +343,7 @@ p {
     top: 79px;
     left: 94px;
     position: absolute;
+    cursor: pointer;
 }
 .button-2::before {
     content: "\e614";
@@ -365,6 +361,7 @@ p {
     top: 79px;
     left: 151px;
     position: absolute;
+    cursor: pointer;
 }
 .button-3::before {
     content: "\e66b";
@@ -377,21 +374,34 @@ p {
 .button-4 {
     height: 50px;
     width: 166px;
-    color: #fff;
     border: 1px solid #fff;
     background-color: #323232;
     top: 136px;
     left: 35px;
     position: absolute;
+    cursor: pointer;
 }
 .button-4::before {
-    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
     content: "\e66e";
     font-size: 30px;
     font-family: 'Pe-icon-7-stroke';
     color: rgb(255, 255, 255);
     border: 1px rgb(255, 255, 255);
-    padding-top: 15px;
+    float: left;
+}
+.cart {
+    padding-top: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    background-color: #323232;
+    border: none;
+    vertical-align: middle;
+    float: right;
+    cursor: pointer;
 }
 /* -------------------------------- */
 
