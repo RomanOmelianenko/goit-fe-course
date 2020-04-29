@@ -216,6 +216,7 @@ main {
 
 .page-main-2 {
     margin: 0 auto;
+    width: 1110px;
 }
 .title-2 {
     text-align: center;
@@ -224,10 +225,11 @@ main {
 }
 .list-section-2 {
     padding-bottom: 100px;
+    padding-left: 0;
     float: left;
-    margin: 0 auto;
-    padding-left: 244px;
-    padding-right: 244px;
+    margin: 0;
+    /* padding-left: 244px;
+    padding-right: 244px; */
 }
 .list-section-2 li {
     display: block;
