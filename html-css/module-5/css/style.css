@@ -116,13 +116,6 @@ main {
     width: 1600px;
 }
 /* -------------------------------- */
-/* .background {
-    display: none;
-    position: absolute;
-    height: 600px;
-    width: 1600px;
-    background-color: rgb(0, 0, 2, 0.522);
-} */
 
 #overlay {
     position: absolute;
@@ -132,9 +125,7 @@ main {
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
-    cursor: pointer;
 }
-
 .photo-1 {
     position: absolute;
 }
@@ -165,50 +156,39 @@ main {
 
 /* ----- ICONS for SECTION 1 ----- */
 
-.slider-1 {
-    margin: 0;
-    padding: 0;
-    border: none;
-    height: 104px;
-    width: 104px;
-    background-color: rgb(26, 188, 156, 0.651);
+.pe-7s-angle-left {
     position: absolute;
     top: 225px;
     left: 245px;
-    cursor: pointer;
-}
-.slider-2 {
-    margin: 0;
-    padding: 0;
-    border: none;
     height: 104px;
     width: 104px;
-    background-color: rgb(26, 188, 156,0.651);
-    position: absolute;
-    top: 230px;
-    right: 245px;
-    cursor: pointer;
 }
-.slider-1:before {
+.pe-7s-angle-left::before {
     content: "\e686";
     font-size: 100px;
     font-family: "Pe-icon-7-stroke";
     color: #fff;
+    cursor: pointer;
 }
-.slider-2:after {
+.pe-7s-angle-left:hover {
+    background-color: rgb(26, 188, 156,0.651);
+}
+.pe-7s-angle-right {
+    position: absolute;
+    top: 230px;
+    right: 245px;
+    height: 104px;
+    width: 104px;
+}
+.pe-7s-angle-right::before {
     content: "\e684";
     font-size: 100px;
     font-family: "Pe-icon-7-stroke";
     color: #fff;
+    cursor: pointer;
 }
-
-/* ----- HOVER for Slider ----- */
-
-.slider-1:hover {
-    background-color: rgb(26, 188, 156);
-}
-.slider-2:hover {
-    background-color: rgb(26, 188, 156);
+.pe-7s-angle-right:hover {
+    background-color: rgb(26, 188, 156,0.651);
 }
 /* --------------------------------- */
 
@@ -228,8 +208,6 @@ main {
     padding-left: 0;
     float: left;
     margin: 0;
-    /* padding-left: 244px;
-    padding-right: 244px; */
 }
 .list-section-2 li {
     display: block;
@@ -301,7 +279,6 @@ p {
 }
 /* ------------------------------ */
 
-/* BUTTON */
 /* CARDS */
 .card {
     position: relative;
@@ -319,91 +296,97 @@ p {
     cursor: pointer;
 }
 /* ---------------------------- */
-.button-1 {
+.pe-7s-like {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
-    background-color: rgb(0, 0, 0, 0);
     top: 79px;
     left: 35px;
     position: absolute;
-    cursor: pointer;
 }
-.button-1::before {
+.pe-7s-like::before {
     content: "\e642";
     font-size: 30px;
     font-family: 'Pe-icon-7-stroke';
     color: #fff;
-    border: 1px #fff;
+    cursor: pointer;
+    top: 8px;
+    left: 8px;
+    position: absolute;
+}
+.pe-7s-like:hover {
+    background-color: rgb(26, 188, 156);
 }
 /* ------------------------------- */
-.button-2 {
+.pe-7s-shuffle {
     height: 50px;
     width: 50px;
-    border: 1px solid #1abc9c;
-    background-color: #1abc9c;
+    border: 1px solid #fff;
     top: 79px;
     left: 94px;
     position: absolute;
-    cursor: pointer;
 }
-.button-2::before {
+.pe-7s-shuffle::before {
     content: "\e614";
     font-size: 30px;
     font-family: 'Pe-icon-7-stroke';
     color: #fff;
-    border: 1px #fff;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.pe-7s-shuffle:hover {
+    background-color: rgb(26, 188, 156);    
 }
 /* --------------------------------- */
-.button-3 {
+.pe-7s-clock {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
-    background-color: rgb(0, 0, 0, 0);
     top: 79px;
     left: 151px;
     position: absolute;
-    cursor: pointer;
 }
-.button-3::before {
+.pe-7s-clock::before {
     content: "\e66b";
     font-size: 30px;
     font-family: 'Pe-icon-7-stroke';
     color: #fff;
-    border: 1px #fff;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.pe-7s-clock:hover {
+    background-color: rgb(26, 188, 156);
 }
 /* ------------------------------------ */
 .button-4 {
     height: 50px;
     width: 166px;
     border: 1px solid #fff;
-    background-color: #323232;
     top: 136px;
     left: 35px;
     position: absolute;
-    cursor: pointer;
-}
-.button-4::before {
-    padding-left: 10px;
-    padding-top: 8px;
-    content: "\e66e";
-    font-size: 30px;
-    font-family: 'Pe-icon-7-stroke';
-    color: rgb(255, 255, 255);
-    border: 1px rgb(255, 255, 255);
-    float: left;
 }
 .cart {
-    padding-top: 16px;
-    padding-right: 16px;
     font-size: 14px;
     font-family: "Open Sans";
     color: rgb(255, 255, 255);
-    background-color: #323232;
-    border: none;
-    vertical-align: middle;
     float: right;
-    cursor: pointer;
+    padding-top: 14px;
+    padding-right: 16px;
+}
+.pe-7s-cart::before {
+    content: "\e66e";
+    font-size: 30px;
+    font-family: 'Pe-icon-7-stroke';
+    color: #fff;
+    float: left;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.button-4:hover {
+    background-color: rgb(0, 0, 2, 0.532);
 }
 /* -------------------------------- */
 
