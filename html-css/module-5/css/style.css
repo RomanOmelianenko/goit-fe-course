@@ -155,13 +155,20 @@ main {
 /* -------------------------------- */
 
 /* ----- ICONS for SECTION 1 ----- */
-
-.pe-7s-angle-left {
+.button-slider-1 {
+    padding: 0;
+    border: none;
     position: absolute;
     top: 225px;
     left: 245px;
     height: 104px;
     width: 104px;
+    background-color: rgb(26, 188, 156);
+    /* ,0.651 */
+}
+.pe-7s-angle-left {
+    height: 104px;
+    width: 104px;   
 }
 .pe-7s-angle-left::before {
     content: "\e686";
@@ -170,13 +177,21 @@ main {
     color: #fff;
     cursor: pointer;
 }
-.pe-7s-angle-left:hover {
+/* .pe-7s-angle-left:hover {
     background-color: rgb(26, 188, 156,0.651);
-}
-.pe-7s-angle-right {
+} */
+.button-slider-2 {
+    padding: 0;
+    border: none;
     position: absolute;
     top: 230px;
     right: 245px;
+    height: 104px;
+    width: 104px;
+    background-color: rgb(26, 188, 156);
+    /* ,0.651 */
+}
+.pe-7s-angle-right {
     height: 104px;
     width: 104px;
 }
@@ -187,9 +202,9 @@ main {
     color: #fff;
     cursor: pointer;
 }
-.pe-7s-angle-right:hover {
+/* .pe-7s-angle-right:hover {
     background-color: rgb(26, 188, 156,0.651);
-}
+} */
 /* --------------------------------- */
 
 /* !!!------ SECTION 2 ------!!! */
@@ -295,14 +310,17 @@ p {
     top: 0;
     cursor: pointer;
 }
-/* ---------------------------- */
-.pe-7s-like {
+
+/* -------- Button-2 ----------- */
+.button-1 {
     height: 50px;
     width: 50px;
-    border: 1px solid #fff;
     top: 79px;
     left: 35px;
+    border: 1px solid #fff;
     position: absolute;
+    background-color: transparent;
+    cursor: pointer;   
 }
 .pe-7s-like::before {
     content: "\e642";
@@ -314,17 +332,20 @@ p {
     left: 8px;
     position: absolute;
 }
-.pe-7s-like:hover {
+.button-1:hover {
     background-color: rgb(26, 188, 156);
 }
-/* ------------------------------- */
-.pe-7s-shuffle {
+
+/* -------- Button-2 ----------- */
+.button-2 {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
     top: 79px;
     left: 94px;
     position: absolute;
+    background-color: transparent;
+    cursor: pointer;
 }
 .pe-7s-shuffle::before {
     content: "\e614";
@@ -335,17 +356,20 @@ p {
     top: 8px;
     left: 8px;
 }
-.pe-7s-shuffle:hover {
+.button-2:hover {
     background-color: rgb(26, 188, 156);    
 }
-/* --------------------------------- */
-.pe-7s-clock {
+
+/* -------- Button-3 ----------- */
+.button-3 {
     height: 50px;
     width: 50px;
     border: 1px solid #fff;
     top: 79px;
     left: 151px;
     position: absolute;
+    background-color: transparent;
+    cursor: pointer;
 }
 .pe-7s-clock::before {
     content: "\e66b";
@@ -356,10 +380,11 @@ p {
     top: 8px;
     left: 8px;
 }
-.pe-7s-clock:hover {
+.button-3:hover {
     background-color: rgb(26, 188, 156);
 }
-/* ------------------------------------ */
+
+/* -------- Button-4 ----------- */
 .button-4 {
     height: 50px;
     width: 166px;
@@ -367,23 +392,24 @@ p {
     top: 136px;
     left: 35px;
     position: absolute;
+    background-color: transparent;
+    cursor: pointer;
 }
 .cart {
     font-size: 14px;
     font-family: "Open Sans";
     color: rgb(255, 255, 255);
-    float: right;
-    padding-top: 14px;
-    padding-right: 16px;
+    vertical-align: middle;
+}
+.pe-7s-cart {
+    padding-right: 10px;
 }
 .pe-7s-cart::before {
     content: "\e66e";
     font-size: 30px;
     font-family: 'Pe-icon-7-stroke';
     color: #fff;
-    float: left;
-    padding-top: 8px;
-    padding-left: 8px;
+    vertical-align: middle;
 }
 .button-4:hover {
     background-color: rgb(0, 0, 2, 0.532);
