@@ -253,7 +253,7 @@ h3, p {
     display: none;
     height: 470px;
     width: 380px;
-    /* background-image: linear-gradient(to top, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%); */
+    background-image: linear-gradient(to top, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
     position: absolute;
     top: 0;
     cursor: pointer;
@@ -440,24 +440,24 @@ h3, p {
 }
 
 /* -------------CSS transition ------------- */
-/* .transition {
-    transform: translate(0px, 0px);
-    transition-property: transform;
+.transition {
+    /* transform: scaleX(0); */
+    transition-property: translate(0);
     transition-duration: 200ms;
     transition-timing-function: linear;
     transition-delay: 0;
 }
 
 .transition:hover {
-    transform: translate(0px, 200px);
-} */
-.transition {
+    transform: translate(-20px, 20px);
+}
+/* .transition {
     transition-property: background-image;
     transition-duration: 5000ms;
 }
 .transition:hover {
     background-image: linear-gradient(to top, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
-}
+} */
 
 
 
