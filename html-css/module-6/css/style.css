@@ -7,7 +7,7 @@ html {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 .wrapper {
     width: 1200px;
@@ -203,7 +203,7 @@ h3, p {
     display: block;
 }
 .photo {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .name {
     margin-bottom: 10px;
@@ -257,6 +257,8 @@ h3, p {
     position: absolute;
     top: 0;
     cursor: pointer;
+}
+.team-list-item:hover .photo {
     box-shadow: 10px 10px 0 rgb(149, 225, 211);
 }
 
@@ -420,7 +422,6 @@ h3, p {
 .input {
     padding-left: 10px;
     width: 230px;
-    cursor: pointer;
 }
 .input::placeholder {
     font-size: 15px;
@@ -441,23 +442,16 @@ h3, p {
 
 /* -------------CSS transition ------------- */
 .transition {
-    /* transform: scaleX(0); */
     transition-property: translate(0);
     transition-duration: 200ms;
     transition-timing-function: linear;
-    transition-delay: 0;
+    /* transition-delay: 0; */
 }
 
 .transition:hover {
-    transform: translate(-20px, 20px);
+    transform: translate(0px, -40px);
 }
-/* .transition {
-    transition-property: background-image;
-    transition-duration: 5000ms;
-}
-.transition:hover {
-    background-image: linear-gradient(to top, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
-} */
+
 
 
 
