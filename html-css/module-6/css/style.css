@@ -67,12 +67,9 @@ img {
 /* !!!----- SECTION 1 -----!!! */
 /* --- section-1 section-2 --- */
 .first-section, .second-section {
-    /* height: 76px; */
     padding-left: 410px;
     padding-right: 410px;
     margin-bottom: 64px;
-    /* display: flex;
-    justify-content: center; */
 }
 .second-heading {
     margin: 0;
@@ -116,7 +113,6 @@ h3, p {
     margin: 0;
 }
 .features-list-item {
-    /* width: 382px; */
     display: flex;
 }
 .third-heading {
@@ -249,7 +245,18 @@ h3, p {
 .team-list-item {
     position: relative;
 }
-.overlay {
+
+
+.overlay-1 {
+    height: 470px;
+    width: 380px;
+    background-color: rgb(149, 225, 211);
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    z-index: -1;
+}
+.overlay-2 {
     display: none;
     height: 470px;
     width: 380px;
@@ -257,9 +264,6 @@ h3, p {
     position: absolute;
     top: 0;
     cursor: pointer;
-}
-.team-list-item:hover .photo {
-    box-shadow: 10px 10px 0 rgb(149, 225, 211);
 }
 
 /* ------------ Button-1 --------------- */
@@ -270,7 +274,6 @@ h3, p {
     top: 206px;
     left: 78px;
     border: none;
-    /* background-color: rgb(252, 227, 138); */
     cursor: pointer;    
 }
 .facebook {
@@ -305,7 +308,6 @@ h3, p {
     top: 206px;
     left: 135px;
     border: none;
-    /* background-color: rgb(252, 227, 138); */
     cursor: pointer;    
 }
 .twitter {
@@ -342,7 +344,6 @@ h3, p {
     top: 206px;
     left: 192px;
     border: none;
-    /* background-color: rgb(252, 227, 138); */
     cursor: pointer;    
 }
 .pinterest {
@@ -379,7 +380,6 @@ h3, p {
     top: 206px;
     left: 248px;
     border: none;
-    /* background-color: rgb(252, 227, 138); */
     cursor: pointer;    
 }
 .instagram {
@@ -397,11 +397,6 @@ h3, p {
 }
 .button-4:hover .instagram {
     background-image: url(../img/icons/inst.png);
-}
-/* --------------------------------- */
-
-.team-list-item:hover .overlay {
-    display: block;
 }
 
 /* !!!--------- Footer ---------- */
@@ -441,15 +436,24 @@ h3, p {
 }
 
 /* -------------CSS transition ------------- */
-.transition {
-    transition-property: translate(0);
-    transition-duration: 200ms;
-    transition-timing-function: linear;
-    /* transition-delay: 0; */
+.parent {
+    position: relative;
 }
-
-.transition:hover {
-    transform: translate(0px, -40px);
+.photo {
+    position: relative;
+    transform: translate(0);
+    transition: all 200ms linear;
+}
+.overlay-2 {
+    transform: translate(0);
+    transition: all 200ms linear;
+}
+.parent:hover .overlay-2 {
+    display: block;
+    transform: translate(-10px, -10px);
+}
+.parent:hover .photo {
+    transform: translate(-10px, -10px);
 }
 
 
