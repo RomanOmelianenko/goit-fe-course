@@ -434,24 +434,23 @@ h3, p {
 }
 
 /* -------------CSS transition ------------- */
-/* .parent {
-    position: relative;
-} */
+
 .photo {
     position: relative;
-    /* transform: translate(0);
-    transition: all 200ms linear; */
 }
-#transform {
+.parent {
     transform: translate(0);
     transition: transform 200ms linear;
 }
-.parent:hover #transform {
+.parent:hover {
     transform: translate(-10px, -10px);
 }
 .parent:hover .overlay-2 {
     display: block;
 }
+/* .parent:hover .photo {
+    box-shadow: 10px 10px rgb(149, 225, 211);
+} */
 
 
 
