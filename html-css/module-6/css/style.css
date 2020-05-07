@@ -245,8 +245,6 @@ h3, p {
 .team-list-item {
     position: relative;
 }
-
-
 .overlay-1 {
     height: 470px;
     width: 380px;
@@ -441,19 +439,18 @@ h3, p {
 }
 .photo {
     position: relative;
-    transform: translate(0);
-    transition: all 200ms linear;
+    /* transform: translate(0);
+    transition: all 200ms linear; */
 }
-.overlay-2 {
+#transform {
     transform: translate(0);
-    transition: all 200ms linear;
+    transition: transform 200ms linear;
+}
+.parent:hover #transform {
+    transform: translate(-10px, -10px);
 }
 .parent:hover .overlay-2 {
     display: block;
-    transform: translate(-10px, -10px);
-}
-.parent:hover .photo {
-    transform: translate(-10px, -10px);
 }
 
 
