@@ -1,0 +1,284 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} 
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+/* !!!------ FONTS ------!!! */
+/* Logo */
+@font-face {
+    font-family: "Widsom Script AJ";
+    src:url("../fonts/WisdomScriptAJ.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* For links */
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* For H2, H3 and Paragraph-1 */
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DroidSerif-Italic";
+    src: url("../fonts/DroidSerif-Italic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* For Paragraph-2 */
+@font-face {
+    font-family: "RobotoSlab-Regular";
+    src: url("../fonts/RobotoSlab-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* !!!------- NAVIGATION -------!!! */
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 118px;
+}
+.logo {
+    margin: 0;
+    padding-left: 6px;
+}
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    width: 486px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.site-navigation li {
+    display: flex;
+}
+
+/* !!!------ Navigation design ------!!! */
+.logo {
+    font-size: 26px;
+    font-family: "Widsom Script AJ", sans-serif;
+    color: rgb(254, 209, 54);
+}
+.link-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat-Regular", sans-serif;
+    color: #000;
+}
+.link-first a {
+    color: rgb(254, 209, 54);
+}
+
+/* !!!------ SECTION 1 ------!!! */
+.main-heading {
+    padding-left: 554px;
+    padding-right: 554px;
+    margin-bottom: 38px;
+}
+.heading-1 {
+    margin: 0;
+    width: 298px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family:"Montserrat-Bold", sans-serif;
+}
+.paragraph-1 {
+    margin: 0;
+    width: 298px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "DroidSerif-Italic", serif;
+}
+
+/* Section 1 */
+/* LISTS */
+
+.main-list  {
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 102px;
+}
+.features-list {
+    margin: 0;
+    padding: 0;
+    /* width: 940px; */
+    display: flex;
+    justify-content: space-between;
+}
+.features-list li {
+    display: flex;
+    flex-wrap: wrap;
+}
+h3, p {
+    margin: 0;
+}
+.features-list-item {
+    width: 290px;
+    height: 232px;
+}
+.icons {
+    height: 106px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.list {
+    height: 124px;
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.heading-2 {
+    font-size: 18px;
+    font-family:"Montserrat-Bold", sans-serif;
+}
+.paragraph-2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: "RobotoSlab-Regular", serif;
+}
+/* ------ ICONS ------- */
+.icon {
+    height: 72px;
+    width: 72px;
+    border: 3px solid rgb(254, 209, 54);
+    color: rgb(254, 209, 54);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#icon-1 {
+    background-image: url(../img/Icon-Basket.png);
+}
+#icon-2 {
+    background-image: url(../img/Icon-Laptop.png);
+}
+#icon-3 {
+    background-image: url(../img/Icon-Locked.png);
+}
+
+/* !!!------ SECTION 2 -------!!! */
+.section-2 {
+    height: 676px;
+    width: 1400px;
+    padding-top: 106px;
+    padding-bottom: 114px;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+}
+.map-image {
+    background-image: url(../img/Map-Image.png);
+    opacity: 0.702;
+    position: absolute;
+    left: 786px;
+    top: 112px;
+    width: 614px;
+    height: 537px;
+}
+#heading-1 {
+    color: rgb(255, 255, 255);
+}
+#paragraph-1 {
+    color: rgb(119, 119, 119);
+}
+#main-heading {
+    margin-bottom: 76px;
+}
+
+/* !!!------ FORM ------ !!!*/
+.form-contanier {
+    width: 940px;
+    height: 214px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.data {
+    width: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text"] {
+        width: 456px;
+        height: 50px;
+        font-size: 14px;
+        font-family: "Montserrat-Bold";
+        padding-left: 20px;
+        text-transform: uppercase; 
+}
+:focus {
+    outline: 3px solid blue;
+}
+:valid input:not(:nth-child(3)), :valid textarea {
+    outline: 3px solid green;
+}
+:invalid input:not(:nth-child(3)), :invalid textarea {
+    outline: 2px solid red;
+}
+
+input::placeholder {
+    color: rgb(187, 187, 187);
+}
+
+textarea[name="message"] {
+    width: 460px;
+    height: 214px;
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    padding-top: 16px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: rgb(187, 187, 187);
+      
+}
+
+/* Button */
+input[type="submit"] {
+    display: block;
+    height: 64px;
+    width: 240px;
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 209, 54);
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+}
