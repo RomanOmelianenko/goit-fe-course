@@ -58,6 +58,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 118px;
+    padding: 0 230px;
 }
 .logo {
     margin: 0;
@@ -187,8 +188,10 @@ h3, p {
 
 /* !!!------ SECTION 2 -------!!! */
 .section-2 {
-    height: 676px;
-    width: 1400px;
+    /* height: 676px;
+    width: 1400px; */
+    height: 100%;
+    width: 100%;
     padding-top: 106px;
     padding-bottom: 114px;
     background-color: rgb(34, 34, 34);
@@ -229,31 +232,52 @@ h3, p {
     align-content: space-between;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="text"] {
-        width: 456px;
-        height: 50px;
-        font-size: 14px;
-        font-family: "Montserrat-Bold";
-        padding-left: 20px;
-        text-transform: uppercase; 
+input {
+    width: 456px;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Montserrat-Bold";
+    padding-left: 20px;
+    text-transform: uppercase; 
 }
-:focus {
+input:focus {
     outline: 3px solid blue;
+    /* outline-width: 1px;
+    border-color: blue; */
 }
-:valid input:not(:nth-child(3)), :valid textarea {
+textarea:focus {
+    outline: 3px solid blue;
+    /* outline-width: 1px;
+    border-color: blue; */
+}
+
+input:valid:not(:nth-child(3)) {
     outline: 3px solid green;
+    /* outline-width: 1px;
+    border-color: green; */
 }
-:invalid input:not(:nth-child(3)), :invalid textarea {
-    outline: 2px solid red;
+textarea:valid {
+    outline: 3px solid green;
+    /* outline-width: 1px;
+    border-color: green; */
+}
+
+input:invalid:focus:not(:nth-child(3)) {
+    outline: 3px solid red;
+    /* outline-width: 1px;
+    border-color: red; */
+}
+textarea:invalid:focus {
+    outline: 3px solid red;
+    /* outline-width: 1px;
+    border-color: red; */
 }
 
 input::placeholder {
     color: rgb(187, 187, 187);
 }
 
-textarea[name="message"] {
+textarea {
     width: 460px;
     height: 214px;
     font-size: 14px;
@@ -266,11 +290,10 @@ textarea[name="message"] {
 
 textarea::placeholder {
     color: rgb(187, 187, 187);
-      
 }
 
 /* Button */
-input[type="submit"] {
+#button {
     display: block;
     height: 64px;
     width: 240px;
@@ -281,4 +304,6 @@ input[type="submit"] {
     border: none;
     border-radius: 3px;
     margin: 0 auto;
+    padding: 0;
+    outline: none;
 }
