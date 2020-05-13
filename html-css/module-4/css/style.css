@@ -185,9 +185,7 @@ a {
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
 }
-.link {
-    font-size: 14px;
-    font-weight: 700;
+.link:hover a {
     color: #1abc9c;
 }
 
@@ -258,6 +256,7 @@ a {
     font-weight: 300;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
 }
 
 /* Underline */
