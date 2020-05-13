@@ -20,7 +20,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    min-height: 50px;
+    height: 50px;
     margin-bottom: 130px;
 }
 .site-navigation {
@@ -29,9 +29,7 @@ img {
     margin: 0;
     padding: 0;
     width: 490px;
-}
-.logo {
-    margin: 0;
+    height: 20px;
 }
 .site-navigation li {
     display: block;
@@ -39,28 +37,50 @@ img {
 
 /* ----- Navigation design ----- */
 .logo {
+    margin: 0;
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: rgb(149, 225, 211);
 }
-.link-nav {
+.link {
     text-decoration: none;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: rgb(149, 225, 211);
 }
-.link-first {
+/* .link-first {
     color: rgb(243, 129, 129);
-}
-.link-first:after {
+} */
+.link:after {
     content: "";
-    display: block;
+    display: none;
     margin-top: 6px;
     height: 4px;
-    width: 50px;
     background-color: rgb(243, 129, 129);
+}
+.about:after {
+    width: 50px;
+}
+.service:after {
+    width: 60px;
+}
+.work:after {
+    width: 48px;
+}
+.blog:after {
+    width: 40px;
+}
+.contact:after {
+    width: 68px;
+}
+
+.link-nav:hover a:after {
+    display: block;
+}
+.link-nav:hover a {
+    color: rgb(243, 129, 129);
 }
 /* --------------------------------- */
 
@@ -291,9 +311,9 @@ h3, p {
     left: 134px;
     background-color: rgba(243, 129, 129, 0.5);
 }
-.button-1:hover {
+/* .button-1:hover {
     background-color: rgb(149, 225, 211);
-}
+} */
 .button-1:hover .facebook{
     background-image: url(../img/icons/face.png);
 }
@@ -327,9 +347,9 @@ h3, p {
     left: 191px;
     background-color: rgba(243, 129, 129, 0.5);
 }
-.button-2:hover {
+/* .button-2:hover {
     background-color: rgb(149, 225, 211);
-}
+} */
 .button-2:hover .twitter {
     background-image: url(../img/icons/twit.png );
 }
@@ -363,9 +383,9 @@ h3, p {
     left: 247px;
     background-color: rgba(243, 129, 129, 0.5);
 }
-.button-3:hover {
+/* .button-3:hover {
     background-color: rgb(149, 225, 211);
-}
+} */
 .button-3:hover .pinterest {
     background-image: url(../img/icons/pint.png);
 }
@@ -390,9 +410,9 @@ h3, p {
     cursor: pointer;
     border: none;
 }
-.button-4:hover {
+/* .button-4:hover {
     background-color: rgb(149, 225, 211);
-}
+} */
 .button-4:hover .instagram {
     background-image: url(../img/icons/inst.png);
 }
