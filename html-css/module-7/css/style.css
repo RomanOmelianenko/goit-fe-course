@@ -9,10 +9,14 @@ img {
     max-width: 100%;
     height: auto;
 } 
-.wrapper {
+.wrapper-1 {
     width: 1400px;
     margin: 0 auto;
     padding-top: 50px;
+}
+.wrapper-2 {
+    width: 100%;
+    height: 100%;
 }
 /* !!!------ FONTS ------!!! */
 /* Logo */
@@ -88,9 +92,12 @@ img {
     font-family: "Montserrat-Regular", sans-serif;
     color: #000;
 }
-.link-first a {
+.link-nav:hover a {
     color: rgb(254, 209, 54);
 }
+/* .link-first a {
+    color: rgb(254, 209, 54);
+} */
 
 /* !!!------ SECTION 1 ------!!! */
 .main-heading {
@@ -306,4 +313,5 @@ textarea::placeholder {
     margin: 0 auto;
     padding: 0;
     outline: none;
+    cursor: pointer;
 }
