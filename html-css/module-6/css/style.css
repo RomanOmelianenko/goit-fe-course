@@ -60,6 +60,7 @@ img {
     height: 4px;
     background-color: rgb(243, 129, 129);
 }
+
 .about:after {
     width: 50px;
 }
