@@ -1,0 +1,237 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 320px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.logo, .button-nav, .button-section-1,
+.title-1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+header {
+    position: relative;
+}
+
+/* NAV */
+
+.main-navigation {
+    padding-top: 20px;
+}
+
+.overlay {
+    height: 540px;
+    width: 320px;
+    background-image: url(../img/Mobile.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.button-nav {
+    font-size: 14px;
+    padding: 8px 10px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+    outline: transparent;
+}
+
+.button-nav:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+/* ---------------------------- */
+
+.logo-container {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    order: 1;
+    padding-bottom: 30px;
+}
+.nav-container {
+    text-align: center;
+    padding-bottom: 114px;
+}
+
+/* Holiday Dreams */
+
+.holiday-dreams {
+    padding-bottom: 136px;
+}
+
+.title-1 {
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.paragraph-1 {
+    font-size: 18px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button-section-1 {
+    width: 280px;
+    padding: 12px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    cursor: pointer;
+    outline: transparent;
+    text-align: center;
+}
+
+/* Section-partners */
+
+.paragraph-1, .paragraph-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* SECTION 2 */
+.section-partners {
+    padding: 60px 22px 56px 22px;
+    background-color: #fff;
+}
+
+/* .features-list li {
+    text-align: center;
+} */
+
+.features-list-item {
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.title-2, .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;  
+}
+
+.title-2 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.photo {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.name {
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+.paragraph-2 {
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.button-section-2 {
+    width: 280px;
+    padding: 12px 0;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 78, 80);
+    background-color: transparent;
+    border: 2px solid rgb(255, 78, 80);
+    border-radius: 20px;
+    cursor: pointer;
+    outline: transparent;
+}
+
+.features-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ICONS */
+.icon {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 82px;
+    left: 144px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#icon-1 {
+    background-image: url(../img/icons/tv.png);
+    background-color: rgb(255, 78, 80);
+}
+#icon-2 {
+    background-image: url(../img/icons/flask.png);
+    background-color: rgb(255, 165, 7);
+}
+#icon-3 {
+    background-image: url(../img/icons/cup.png);
+    background-color: rgb(28, 215, 173);
+}
+#icon-4 {
+    background-image: url(../img/icons/arrow.png);
+    background-color: rgb(78, 115, 219);
+}
+
+
+
+@media (min-width: 768px) {
+    .wrapper {
+        min-width: 768px;
+    }
+    .overlay {
+        background-image: url(../img/Tablet.png);
+        height: 700px;
+        width: 768px;
+    }
+    
+}
+
+/* @media (min-width: 1440px) {
+    .wrapper {
+        min-width: 1440px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    .overlay {
+        background-image: url(../img/Desktop.png);
+        height: 700px;
+        width: 1440px;
+        top: 0;
+        left: -250px;
+    }
+} */
