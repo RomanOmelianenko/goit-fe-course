@@ -1,7 +1,7 @@
-.wrapper {
+/* .wrapper {
+    width: 320px;
     margin: 0 auto;
-    max-width: 320px;
-}
+} */
 img {
     display: block;
     max-width: 100%;
@@ -18,28 +18,26 @@ img {
 h1, h2, h3, p {
     margin: 0;
 }
-header {
-    position: relative;
+
+/* HEADER */
+
+.header {
+    padding-top: 20px;
+    background-image: url(../img/Mobile.png);
+    height: 540px;
 }
+
 
 /* NAV */
 
 .main-navigation {
-    padding-top: 20px;
-}
-
-.overlay {
-    height: 540px;
-    width: 320px;
-    background-image: url(../img/Mobile.png);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    padding-bottom: 100px;
 }
 
 .logo {
     font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .button-nav {
@@ -55,183 +53,125 @@ header {
     border: 2px solid white;
     border-radius: 20px;
 }
-/* ---------------------------- */
-
-.logo-container {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-    order: 1;
-    padding-bottom: 30px;
-}
-.nav-container {
-    text-align: center;
-    padding-bottom: 114px;
-}
 
 /* Holiday Dreams */
 
 .holiday-dreams {
-    padding-bottom: 136px;
+    padding: 0;
 }
+
 
 .title-1 {
     font-size: 28px;
     line-height: 1.2;
     text-align: center;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
 }
 
 .paragraph-1 {
     font-size: 18px;
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
-    padding-bottom: 16px;
+    padding-bottom: 14px;
+    line-height: 1.2;
 }
 
 .button {
     text-align: center;
 }
-
-.button-section-1 {
+.two-button {
     width: 280px;
     padding: 12px 0;
     font-size: 14px;
-    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     border-radius: 20px;
-    background-color: rgb(255, 78, 80);
     cursor: pointer;
     outline: transparent;
     text-align: center;
 }
-
-/* Section-partners */
-
-.paragraph-1, .paragraph-2 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    text-align: center;
+#button-section-1 {
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 78, 80);
 }
 
-/* SECTION 2 */
-.section-partners {
-    padding: 60px 22px 56px 22px;
-    background-color: #fff;
+/* SECTION */
+
+.features {
+    padding-top: 68px;
+    padding-bottom: 56px;
 }
 
-/* .features-list li {
-    text-align: center;
-} */
-
-.features-list-item {
-    position: relative;
-    padding-bottom: 22px;
-}
-
-.title-2, .name {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    color: black;
-    text-align: center;  
+.meet {
+    padding: 0;
 }
 
 .title-2 {
+    text-align: center;
     font-size: 22px;
-    padding-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 0 20px 20px 20px;
+}
+
+.icons {
+    width: 120px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+#icon-1 {
+    background-image: url(../img/icons/tv.png);
+    background-color: #ff4e50;
+}
+#icon-2 {
+    background-image: url(../img/icons/flask.png);
+    background-color: #ffa507;
+}
+#icon-3 {
+    background-image: url(../img/icons/cup.png);
+    background-color: #1cd7ad;
+}
+#icon-4 {
+    background-image: url(../img/icons/arrow.png);
+    background-color: #4e73db;
 }
 
 .photo {
     margin: auto;
-    padding-bottom: 20px;
 }
-
 .name {
-    font-size: 14px;
+    text-align: center;
+    padding-top: 22px;
     padding-bottom: 16px;
-}
-
-.paragraph-2 {
-    font-size: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
-}
-
-.button-section-2 {
-    width: 280px;
-    padding: 12px 0;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: rgb(255, 78, 80);
-    background-color: transparent;
-    border: 2px solid rgb(255, 78, 80);
-    border-radius: 20px;
-    cursor: pointer;
-    outline: transparent;
 }
-
-.features-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.paragraph-2 {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 26px;
 }
-
-/* ICONS */
-.icon {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: 82px;
-    left: 144px;
-    border: 4px solid white;
-    border-radius: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
+#button-section-2 {
+    color: rgb(255, 0, 0);
+    border: 2px solid red;
 }
-#icon-1 {
-    background-image: url(../img/icons/tv.png);
-    background-color: rgb(255, 78, 80);
-}
-#icon-2 {
-    background-image: url(../img/icons/flask.png);
-    background-color: rgb(255, 165, 7);
-}
-#icon-3 {
-    background-image: url(../img/icons/cup.png);
-    background-color: rgb(28, 215, 173);
-}
-#icon-4 {
-    background-image: url(../img/icons/arrow.png);
-    background-color: rgb(78, 115, 219);
-}
-
-
-
-@media (min-width: 768px) {
-    .wrapper {
-        min-width: 768px;
-    }
-    .overlay {
-        background-image: url(../img/Tablet.png);
-        height: 700px;
-        width: 768px;
-    }
-    
-}
-
-/* @media (min-width: 1440px) {
-    .wrapper {
-        min-width: 1440px;
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-    .overlay {
-        background-image: url(../img/Desktop.png);
-        height: 700px;
-        width: 1440px;
-        top: 0;
-        left: -250px;
-    }
-} */

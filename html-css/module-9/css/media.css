@@ -1,13 +1,38 @@
-/* @media (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .wrapper {
-        min-width: 768px;
+        max-width: 768px;
+        
     }
-    .overlay {
+    .header {
+        padding-top: 20px;
         background-image: url(../img/Tablet.png);
         height: 700px;
         width: 768px;
-    }
-    .logo {
+        /* margin-bottom: 68px; */
+
+
+
+/* @media screen and (min-width: 1440px) {
+    .wrapper {
+        max-width: 1440px;
         
+    }
+
+    .header {
+        background-image: url(../img/Desktop.png);
+        width: 1440px;
+        height: 700px;
+    }
+} */
+
+/* @media (min-width: 768px) {
+    .container-md {
+        
+    }
+    .header {
+        background-image: url(../img/Tablet.png);
+        max-width: 720px;
+        width: 768px;
+        height: 700px;
     }
 } */
