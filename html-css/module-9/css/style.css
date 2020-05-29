@@ -1,13 +1,24 @@
-/* .wrapper {
-    width: 320px;
+.wrapper {
+    width: 100%;
     margin: 0 auto;
-} */
+}
 img {
     display: block;
     max-width: 100%;
     height: auto;
     border-radius: 50%;
 }
+
+.background {
+    background-image: url(../img/Desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 540px;
+    margin: auto;
+    
+    }
 
 .logo, .button-nav, .button-section-1,
 .title-1 {
@@ -21,11 +32,9 @@ h1, h2, h3, p {
 
 /* HEADER */
 
-.header {
+/* .header {
     padding-top: 20px;
-    background-image: url(../img/Mobile.png);
-    height: 540px;
-}
+} */
 
 
 /* NAV */
@@ -65,12 +74,15 @@ h1, h2, h3, p {
     font-size: 28px;
     line-height: 1.2;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
+    text-transform: uppercase;
 }
 
 .paragraph-1 {
     font-size: 18px;
     color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
@@ -80,10 +92,12 @@ h1, h2, h3, p {
 
 .button {
     text-align: center;
+    padding-top: 20px;
 }
 .two-button {
     width: 280px;
     padding: 12px 0;
+    margin: auto;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -101,13 +115,15 @@ h1, h2, h3, p {
 /* SECTION */
 
 .features {
+    width: 320px;
+    margin: 0 auto;
     padding-top: 68px;
     padding-bottom: 56px;
 }
 
-.meet {
+/* .meet {
     padding: 0;
-}
+} */
 
 .title-2 {
     text-align: center;

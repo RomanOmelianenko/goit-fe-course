@@ -1,38 +1,225 @@
-/* @media screen and (min-width: 768px) {
-    .wrapper {
-        max-width: 768px;
-        
-    }
-    .header {
-        padding-top: 20px;
-        background-image: url(../img/Tablet.png);
-        height: 700px;
+@media screen and (max-width: 575px) {
+   /* .wrapper {
+       min-width: 320px;
+       max-width: 575px;
+       width: 100%;
+   }  */
+   .title-1 {
+       width: 320px;
+       margin: 0 auto;
+   }
+   .paragraph-1 {
+       width: 244px;
+       margin: 0 auto;
+   }
+   /* .background {
+       min-height: 542px;
+   } */
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .background {
         width: 768px;
-        /* margin-bottom: 68px; */
-
-
-
-/* @media screen and (min-width: 1440px) {
-    .wrapper {
-        max-width: 1440px;
-        
+        height: 700px;
+        margin: auto;
     }
+    .row-1 {
+        padding-top: 34px;
+        padding-bottom: 100px;
+    }
+    .logo {
+        padding: 0;
+        text-align: left;
+    }
+    .button {
+        padding: 0;
 
-    .header {
-        background-image: url(../img/Desktop.png);
+    }
+    .main-navigation {
+        padding: 0;
+    }
+    /* ------------------------ */
+
+    .title-1 {
+        font-size: 46px;
+        /* width: 492px; */
+        /* margin: auto; */
+        padding-bottom: 34px;
+        /* text-align: center; */
+    }
+    .paragraph-1 {
+        padding-bottom: 34px;
+    }
+    .two-button {
+        width: 236px;
+    }
+    /* ------------------------ */
+
+    .features {
+        width: 768px;
+    }
+    .items {
+        width: 236px;
+        padding-bottom: 57px;
+    }
+    /* .paragraph-2:nth-child(n+3) {
+        padding-bottom: 0;
+    } */
+    /* #button-section-2 {
+        margin-top: 36px;
+    } */
+    #second-item {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        padding: 0;
+    }
+    .main-navigation {
+        padding: 0;
+    }
+    .button {
+        padding: 0;
+    }
+    .row-1 {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+    .logo-md {
+        padding: 0;
+    }
+    .nav {
+        padding: 0;
+    }
+    /* --------------- */
+
+    .title-1 {
+        font-size: 46px;
+        width: 580px;
+        margin: auto;
+        padding-bottom: 26px;
+    }
+    .paragraph-1 {
+        padding-bottom: 26px;
+    }
+    .two-button {
+        width: 236px;
+    }
+    /* ---------------- */
+
+    .features {
+        width: 942px;
+    }
+    .paragraph-2 {
+        padding: 0;
+    }
+    .items {
+        padding: 0;
+        padding-bottom: 38px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .logo {
+        padding: 0;
+    }
+    .main-navigation {
+        padding: 0;
+    }
+    .button {
+        padding: 0;
+    }
+    .row-1 {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+    .logo-md {
+        padding: 0;
+    }
+    .nav {
+        padding: 0;
+    }
+    /* --------------- */
+
+    .title-1 {
+        font-size: 46px;
+        width: 580px;
+        margin: auto;
+        padding-bottom: 26px;
+    }
+    .paragraph-1 {
+        padding-bottom: 26px;
+    }
+    .two-button {
+        width: 236px;
+    }
+    /* ---------------- */
+
+    .features {
+        width: 942px;
+    }
+    .paragraph-2 {
+        padding: 0;
+    }
+    .items {
+        padding: 0;
+        padding-bottom: 38px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .background {
         width: 1440px;
         height: 700px;
     }
-} */
+    .logo {
+        padding: 0;
+    }
+    .main-navigation {
+        padding: 0;
+    }
+    .button {
+        padding: 0;
+    }
+    .row-1 {
+        padding-top: 20px;
+        padding-bottom: 100px;
+    }
+    .logo-md {
+        padding: 0;
+    }
+    .nav {
+        padding: 0;
+    }
+    /* --------------- */
 
-/* @media (min-width: 768px) {
-    .container-md {
-        
+    .title-1 {
+        font-size: 46px;
+        width: 580px;
+        margin: auto;
+        padding-bottom: 26px;
     }
-    .header {
-        background-image: url(../img/Tablet.png);
-        max-width: 720px;
-        width: 768px;
-        height: 700px;
+    .paragraph-1 {
+        padding-bottom: 26px;
     }
-} */
+    .two-button {
+        width: 236px;
+    }
+    /* ---------------- */
+
+    .features {
+        width: 942px;
+        margin: auto;
+    }
+    .paragraph-2 {
+        padding: 0;
+    }
+    .items {
+        padding: 0;
+        padding-bottom: 38px;
+    }
+}
