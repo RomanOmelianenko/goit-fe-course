@@ -25,14 +25,9 @@ h1, h2, h3, p {
     margin: 0;
 }
 
-.main-navigation {
-    /* padding-bottom: 100px; */
-}
-
 .logo {
     font-size: 20px;
     text-align: center;
-    /* padding-bottom: 40px; */
 }
 
 .button-nav {
@@ -60,7 +55,6 @@ h1, h2, h3, p {
     font-size: 32px;
     line-height: 1.2;
     text-align: center;
-    /* padding-bottom: 14px; */
     text-transform: uppercase;
 }
 
@@ -69,17 +63,10 @@ h1, h2, h3, p {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    /* padding-left: 10px;
-    padding-right: 10px; */
     text-align: center;
-    /* padding-bottom: 14px; */
     line-height: 1.2;
 }
 
-.button {
-    text-align: center;
-    /* padding-top: 20px; */
-}
 .two-button {
     width: 280px;
     padding: 12px 0;
@@ -100,11 +87,9 @@ h1, h2, h3, p {
 /* ---------------------------------- */
 
 .title-2 {
-    /* text-align: center; */
     font-size: 22px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    /* padding: 0 20px 20px 20px; */
 }
 
 .icons {
@@ -141,9 +126,6 @@ h1, h2, h3, p {
     background-color: #4e73db;
 }
 
-.photo {
-    margin: auto;
-}
 .name {
     text-align: center;
     font-size: 14px;
