@@ -22,16 +22,17 @@
         padding-bottom: 74px;
     }
     .title-2 {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
     .photo {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .name {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .paragraph-2 {
-        padding-bottom: 39px;
+        margin-bottom: 39px;
+        width: 214px;
     }
     .items:not(:nth-child(4)) {
         padding-right: 0;
@@ -62,16 +63,16 @@
         padding-bottom: 74px;
     }
     .title-2 {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
     .photo {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .name {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .paragraph-2 {
-        padding-bottom: 39px;
+        margin-bottom: 39px;margin
     }
     .items:not(:nth-child(4)) {
         padding-right: 0;
@@ -102,16 +103,16 @@
         padding-bottom: 74px;
     }
     .title-2 {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
     .photo {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .name {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .paragraph-2 {
-        padding-bottom: 39px;
+        margin-bottom: 39px;
         width: 214px;
     }
 }
@@ -148,16 +149,16 @@
         padding-bottom: 74px;
     }
     .title-2 {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
     .photo {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .name {
-        padding-bottom: 18px;
+        margin-bottom: 18px;
     }
     .paragraph-2 {
-        padding-bottom: 39px;
+        margin-bottom: 39px;
         width: 214px;
     }
 }
