@@ -25,26 +25,30 @@ h1,h2,h3,h4,h5 {
 /* HEADER */
 
 .header {
-    margin-bottom: 46px;
+    margin: 0 auto;
+    margin-bottom: 120px;
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 1920px;
+    height: 1000px;
 }
 .header__intro {
-    /* width: 1920px;
-    height: 1000px; */
     width: 100%;
-    height: 100vh;
-    background-image: url(../assets/images/Eagle.png);
+    height: 1000px;
     margin: 0 auto;
+    /* width: 100%;
+    height: 100vh; */
+    background-image: url(../assets/images/Eagle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     z-index: -2;
 }
 .header__overlay {
-    /* width: 1920px;
-    height: 1000px; */
     width: 100%;
-    height: 100vh;
+    height: 1000px;
+    /* width: 100%;
+    height: 100vh; */
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(252,227,138)), to(rgb(243,129,129)));
     background-image: -o-linear-gradient(bottom, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
     background-image: linear-gradient(to top, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
