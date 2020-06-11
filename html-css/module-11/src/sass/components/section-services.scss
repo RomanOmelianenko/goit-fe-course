@@ -1,0 +1,16 @@
+.section__services {
+    width: 1212px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.sevices__overtitle,
+.team__overtitle {
+    @extend %overtitle-heading;
+}
+
+.sevices__title,
+.team__title {
+    @extend %underline-heading;
+}
+

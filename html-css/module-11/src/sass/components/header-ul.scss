@@ -1,0 +1,47 @@
+.header__nav {
+    @include center-fkex;
+}
+.nav-list {
+    @include between-flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 640px;
+
+    &__item {
+        @extend %underline-list-nav;
+    }
+
+    &__icon-1 {
+        background-image: url(../images/icons/Header/CART.png);
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+    &__icon-2 {
+        background-image: url(../images/icons/Header/GLASS.png);
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+}
+
+// li { 
+//     a {
+//     text-decoration: none;
+//     color: $color-white;
+//     }
+// }
+
+
+
+
+
+/* Hover for NAV */
+
+// .nav__link--hover:hover a {
+//     color: $back-color-yellow;
+// }
+// .nav__link--hover:hover a:after {
+//     display: block;
+// }

@@ -1,0 +1,16 @@
+@mixin between-flex($type: 'all') {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin center-fkex($type: 'all') {
+    display: flex;
+    align-items: center;
+}
+
+
+@mixin bg-image($size: cover, $repeat: no-repeat, $pos: center) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

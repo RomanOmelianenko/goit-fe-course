@@ -1,0 +1,27 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import 'base.scss';
+@import 'variables.scss';
+@import 'placeholder-selector.scss';
+@import 'nesting.scss';
+@import 'concat.scss';
+@import 'mixins.scss';
+
+
+// Components
+
+@import 'components/header.scss';
+@import 'components/header-ul.scss';
+@import 'components/header-template.scss';
+@import 'components/section-services.scss';
+@import 'components/services-icons.scss';
+@import 'components/section-team.scss';
+@import 'components/overlay.scss';
+@import 'components/button.scss';
+@import 'components/icons.scss';
+@import 'components/footer.scss';
+// @import 'components/pseudo-elements.scss';
+// @import 'components/';

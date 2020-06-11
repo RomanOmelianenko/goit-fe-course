@@ -1,0 +1,74 @@
+// Header list-nav
+
+%underline-list-nav {
+    height: 14px;
+    text-transform: uppercase;
+    font-size: $size-small;
+    font-family: $family-montserrat;
+    font-weight: $font-regular;
+
+    &--after:after {
+        content: "";
+        display: none;
+        margin-top: 6px;
+        height: 4px;
+        background-color: $back-color-yellow;
+    }
+
+    &:hover a {
+        color: $back-color-yellow;
+    }
+
+    &:hover a:after {
+        display: block;
+    }
+}
+
+
+// Section services and team
+
+%underline-heading {
+    font-size: 30px;
+    font-family: $family-montserrat;
+    font-weight: $font-bold;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+
+    &::after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 60px;
+        background-color: $back-color-red;
+        margin: 40px auto 0;
+    }
+}
+
+%overtitle-heading {
+    font-size: 24px;
+    font-family: $family-kaushan;
+    font-weight: $font-regular;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+%services-team_text {
+    font-size: 15px;
+    font-family: $family-roboto;
+    font-weight: $font-regular;
+    color: $secondary-dark-color;
+    line-height: 1.6;
+}
+
+
+// Team verticale-line
+
+%verticale-line {
+    display: block;
+    height: 56px;
+    width: 1px;
+    position: absolute;
+    top: 206px;
+    background-color: rgba(243, 129, 129, 0.5);
+}

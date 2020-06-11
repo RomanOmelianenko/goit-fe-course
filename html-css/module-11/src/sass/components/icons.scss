@@ -1,0 +1,27 @@
+.team-icon {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    fill: $back-color-red;
+
+    &__facebook {
+        height: 26px;
+        width: 13px;
+    }
+    &__twitter {
+        height: 22px;
+        width: 26px;
+    }
+    &__pinterest {
+        height: 26px;
+        width: 21px;
+    }
+    &__instagram {
+        height: 26px;
+        width: 26px;
+    }
+}
+
+.team__button--hover:hover .team-icon {
+    fill: $color-white;
+}

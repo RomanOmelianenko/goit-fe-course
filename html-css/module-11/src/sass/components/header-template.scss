@@ -1,0 +1,36 @@
+.template-box {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+        font-size: 150px;
+        font-family: $family-montserrat;
+        font-weight: $font-bold;
+        color: $color-white;
+        text-transform: uppercase;
+        line-height: 0.9;
+        margin-bottom: 124px;
+    }
+    &__overtitle {
+        font-size: 72px;
+        font-family: $family-kaushan;
+        font-weight: $font-regular;
+        color: $color-white;
+        margin-bottom: 26px;
+    }
+    &__btn {
+        border: 3px solid $color-white;
+        color: $color-white;
+        background-color: transparent;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        font-size: $size-small;
+        font-family: $family-montserrat;
+        font-weight: $font-bold;
+        cursor: pointer;
+    }
+}
+
+

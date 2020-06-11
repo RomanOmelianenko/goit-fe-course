@@ -1,0 +1,49 @@
+.team__button {
+    height: 56px;
+    width: 56px;
+    position: absolute;
+    top: 206px;
+    border: none;
+    cursor: pointer;
+    background-color: $back-color-yellow;
+
+    &:hover .team__icon {
+        fill: $color-white;
+    }
+    &:hover {
+        background-color: $back-color-red;
+    }
+}
+
+
+/* ------------ Button-1 --------------- */
+.team__button-1 {
+    left: 78px;
+}
+.vertical-line-1 {
+    @extend %verticale-line;
+    left: 134px;
+}
+
+/* ---------- Button-2 --------------- */
+.team__button-2 {
+    left: 135px;
+}
+.vertical-line-2 {
+    @extend %verticale-line;
+    left: 191px;
+}
+
+/* ----------- Button-3 --------------- */
+.team__button-3 {
+    left: 192px;
+}
+.vertical-line-3 {
+    @extend %verticale-line;
+    left: 247px;
+}
+
+/* ----------- Button-4 ------------ */
+.team__button-4 {
+    left: 248px;
+}
