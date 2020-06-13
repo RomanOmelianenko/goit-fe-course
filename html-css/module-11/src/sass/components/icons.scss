@@ -22,6 +22,9 @@
     }
 }
 
-.team__button--hover:hover .team-icon {
-    fill: $color-white;
+.team__button {
+    &--hover:hover .team-icon {
+        fill: $color-white;
+    }
 }
+

@@ -7,7 +7,7 @@
     font-family: $family-montserrat;
     font-weight: $font-regular;
 
-    &--after:after {
+    &:after {
         content: "";
         display: none;
         margin-top: 6px;
@@ -24,6 +24,14 @@
     }
 }
 
+// Header icons
+
+%header-icons {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
 
 // Section services and team
 
@@ -35,7 +43,7 @@
     margin-bottom: 60px;
     text-transform: uppercase;
 
-    &::after {
+    &:after {
         content: "";
         display: block;
         height: 3px;
@@ -71,4 +79,22 @@
     position: absolute;
     top: 206px;
     background-color: rgba(243, 129, 129, 0.5);
+}
+
+// Overlay
+
+%overlay {
+    height: 470px;
+    width: 380px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+// Footer paragraph
+
+%footer-parafraph {
+    font-size: $size-small;
+    font-family: $family-montserrat;
+    font-weight: $font-regular;
 }

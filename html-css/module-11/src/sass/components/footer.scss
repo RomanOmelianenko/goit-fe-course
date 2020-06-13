@@ -7,9 +7,7 @@
     border-top: 1px inset;
 
     &__paragraph {
-        font-size: $size-small;
-        font-family: $family-montserrat;
-        font-weight: $font-regular;
+        @extend %footer-parafraph;
     }
     
     &__paragraph::before {
@@ -17,9 +15,7 @@
     }
     
     &__span {
-        font-size: $size-small;
-        font-family: $family-montserrat;
-        font-weight: $font-regular;
+        @extend %footer-parafraph;
         color: $back-color-red;
     }
 

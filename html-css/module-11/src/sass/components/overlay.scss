@@ -1,20 +1,10 @@
 .team__overlay-1 {
-    height: 470px;
-    width: 380px;
     background-color: rgb(149, 225, 211);
-    position: absolute;
-    top: 0;
     z-index: -1;
-    cursor: pointer;
+    @extend %overlay;
 }
 .team__overlay-2 {
     display: none;
-    height: 470px;
-    width: 381px;
-    // background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252,227,138, 0.9)), to(rgba(243,129,129, 0.9)));
-    // background-image: -o-linear-gradient(bottom, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
     background-image: linear-gradient(to top, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
-    position: absolute;
-    top: 0;
-    cursor: pointer;
+    @extend %overlay;
 }

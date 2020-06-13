@@ -1,44 +1,51 @@
-.section__team {
+.section-team {
     width: 1212px;
     margin: 0 auto;
     margin-bottom: 84px;
-}
-.team__text {
-    width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 80px;
-}
-.team {
-    @include between-flex;
-}
-.team__name {
-    margin-top: 30px;
-    margin-bottom: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: $size-small;
-    font-family: $family-montserrat;
-    font-weight: $font-regular;
-    color: $primary-dark-color;
-}
-.team__profession {
-    margin: 0;
-    text-align: center;
-    font-family: $family-roboto;
-    font-weight: $font-regular;
-    font-style: italic;
-    color: $secondary-dark-color;
-}
-.team__item {
-    width: 380px;
-    position: relative;
-}
-.team__parent--hover:hover .team__overlay-2 {
-    display: block;
+
+    &__text {
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 80px;
+        @extend %services-team_text;
+    }
+
+    &__team {
+        @include between-flex;
+    }
+
+    &__name {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        @extend %footer-parafraph;
+        color: $primary-dark-color;
+    }
+    &__profession {
+        margin: 0;
+        text-align: center;
+        font-family: $family-roboto;
+        font-weight: $font-regular;
+        font-style: italic;
+        color: $secondary-dark-color;
+    }
+
+    &__item {
+        width: 380px;
+        position: relative;
+    }
 }
 
-.team__parent--hover:hover .team__image img,
-.team__parent--hover:hover .team__overlay-2 {
-    transform: translate(-10px, -10px);
+.team__parent {
+    &--hover:hover .team__overlay-2 {
+        display: block;
+        transform: translate(-10px, -10px);
+    }
+
+    &--hover:hover .team__image img {
+        transform: translate(-10px, -10px);
+    }
 }
+
