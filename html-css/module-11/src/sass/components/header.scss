@@ -36,5 +36,25 @@
     font-family: $family-montserrat;
     font-weight: $font-bold;
     cursor: pointer;
+    // display: inline-block;
+    animation: logo-appear 2s linear .2s;
+    }
+
+    @keyframes logo-appear {
+        0% {
+            transform: translateY(-200px);
+            opacity: 0;
+            color: green;
+        }
+        50% {
+            transform: translateY(0);
+            opacity: 1;
+            transform: rotate(0);
+            color: yellow;
+        }
+        100% {
+            transform: rotate(360deg);
+            color: white;
+        }
     }
 }

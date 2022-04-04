@@ -3,9 +3,10 @@
 %underline-list-nav {
     height: 14px;
     text-transform: uppercase;
-    font-size: $size-small;
-    font-family: $family-montserrat;
-    font-weight: $font-regular;
+    // font-size: $size-small;
+    // font-family: $family-montserrat;
+    // font-weight: $font-regular;
+    @extend %footer-parafraph;
 
     &:after {
         content: "";
